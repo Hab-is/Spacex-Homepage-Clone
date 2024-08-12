@@ -59,33 +59,33 @@ body {
     border-radius: 5px;
 }
 
-/* Full-width image styling */
+
 .full-width-image img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-.hero {
+.welcome {
     background: url('https://shop.spacex.com/static/hero.jpg') no-repeat center center/cover;
     height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: -20px; /* Reduce gap above the text */
+    margin-top: -20px; 
 }
 
-.hero h1 {
+.welcome h1 {
     font-size: 3rem;
-    margin: 10px 0; /* Reduce gap below the text */
+    margin: 10px 0; 
 }
 
 .products {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 30px 20px; /* Reduced padding */
+    padding: 30px 20px; 
 }
 
 .product {
