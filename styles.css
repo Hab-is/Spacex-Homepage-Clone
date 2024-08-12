@@ -1,0 +1,138 @@
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.header {
+    background-color: #111;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    position: relative;
+}
+
+.header-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-right {
+    margin-left: auto;
+}
+
+.header img {
+    width: 150px;
+}
+
+.search-icon,
+.cart-icon {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+/* Full-width image styling */
+.full-width-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero {
+    background: url('https://shop.spacex.com/static/hero.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -20px; /* Reduce gap above the text */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 10px 0; /* Reduce gap below the text */
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 20px; /* Reduced padding */
+}
+
+.product {
+    background-color: #111;
+    border: 1px solid #333;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.product p {
+    font-size: 1rem;
+}
+
+.product button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
